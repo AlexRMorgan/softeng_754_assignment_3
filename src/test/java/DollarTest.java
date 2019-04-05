@@ -1,6 +1,10 @@
+import static org.junit.Assert.*;
+import org.bson.Document;
 import org.junit.Test;
+import com.mongodb.MongoClient;
+import com.mongodb.client.MongoCollection;
+import com.mongodb.client.MongoDatabase;
 
-import static org.junit.Assert.assertEquals;
 public class DollarTest {
     @Test
     public void testDollarDivision() {
